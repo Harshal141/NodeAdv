@@ -1,5 +1,8 @@
 const crypto = require('crypto');
 
+// to change the number of threads in thread pool
+// process.env.UV_THREADPOOL_SIZE = 2;
+
 const start = Date.now();
 
 crypto.pbkdf2('a', 'b', 100000, 512, 'sha512', () => {

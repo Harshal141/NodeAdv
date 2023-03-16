@@ -2,6 +2,7 @@
 
 const pendingTimers = [];
 const pendingOSTasks = [];
+// operation of threadpool
 const pendingOperations = [];
 
 // the loop.js content is executed. NOTE: the main event loop diesnt start here.

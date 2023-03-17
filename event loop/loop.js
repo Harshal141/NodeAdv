@@ -1,6 +1,7 @@
 // node loop.js
 
 const pendingTimers = [];
+// operation of OS like https request
 const pendingOSTasks = [];
 // operation of threadpool
 const pendingOperations = [];

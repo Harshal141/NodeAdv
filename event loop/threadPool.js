@@ -1,7 +1,7 @@
 const crypto = require('crypto');
 
 // to change the number of threads in thread pool
-// process.env.UV_THREADPOOL_SIZE = 2;
+process.env.UV_THREADPOOL_SIZE = 2;
 
 const start = Date.now();
 

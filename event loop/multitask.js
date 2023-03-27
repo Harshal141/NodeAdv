@@ -32,7 +32,5 @@ doHash();
 doHash();
 doHash();
 doHash();
-doHash();
-doHash();
-doHash();
+
 
